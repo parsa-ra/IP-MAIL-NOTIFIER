@@ -1,0 +1,14 @@
+[Unit]
+Description = Timer for paramailnot.service
+
+[Timer]
+# Amount of time to wait after booting before the service runs for the first time
+OnBootSec=2min
+# The time between running each consecutive timer
+OnUnitActiveSec=2h
+# Name of the service file that will be called
+Unit=paramailnot.service
+
+[Install]
+# Defines which service triggers the custom service on boot
+WantedBy=multi-user.target

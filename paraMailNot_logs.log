@@ -1,0 +1,11 @@
+2020-03-02T20:18:50.347968 	Init ParaMailNot Logfile at
+2020-03-02T20:18:54.648982	No ip file is found will write them to ip file and later send them
+2020-03-02T20:18:54.649626	Successfully ips written to log file
+2020-03-02T20:19:20.249473	Same Ips No need to resend mail
+2020-03-02T20:20:16.979448	Same Ips No need to resend mail
+2020-03-02T20:26:06.577800	Successfully ips written to log file
+2020-03-02T20:26:07.880886	b'{"messageId":"<202003021756.53958820708@smtp-relay.mailin.fr>"}'
+2020-03-02T20:28:13.465812	Successfully ips written to log file
+2020-03-02T20:28:15.925999	b'{"error":{"status":400,"message":"Input must be a valid JSON object","code":"bad_request"}}'
+2020-03-02T20:29:54.030187	Successfully ips written to log file
+2020-03-02T20:29:55.925102	b'{"messageId":"<202003021759.17027953275@smtp-relay.mailin.fr>"}'

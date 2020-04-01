@@ -1,0 +1,6 @@
+[Unit]
+Description= used for sending mail to subscription list if the machine ips are changed from pervious runs
+
+[Service]
+# The location of the mysql backup script
+ExecStart=/usr/local/bin/paramailnot.sh
